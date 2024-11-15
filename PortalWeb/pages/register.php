@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BiblioNet</title>
-    <link rel="icon" href="./img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./includes/css/style_home.css">
+    <title> ◤ Regristro | BiblioNet ◥</title>
+    <link rel="icon" href="../img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../includes/css/style_home.css">
 </head>
 <body>
     <div id="contenedor">
@@ -15,15 +15,16 @@
                     Bienvenido
                 </div>
                 <form id="loginform">
-                    <input type="text" name="usuario" placeholder="Usuario" required>    
+                    <input type="email" name="email" placeholder="Correo" required>    
                     <input type="password" placeholder="Contraseña" name="password" required>
-                    <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+                    <input type="password" placeholder="Repite Contraseña" name="password" required>
+                    <button type="submit" title="Registrate" name="Registrate">Registrate</button>
                 </form>
                 <div class="pie-form">
-                    <a href="#">¿Perdiste tu contraseña?</a>
-                    <a href="#">¿No tienes Cuenta? Registrate</a>
+                    <a href="./index.php"> ¿Quieres volver al inicio? Pulsame </a>
                 </div>
             </div>
+            
         </div>
     </div>
 </body>

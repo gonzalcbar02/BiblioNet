@@ -5,6 +5,8 @@
     --blanco: #fff;
     --negro: #000;
     --fondo-login: #3282b8;
+    --background-botones: #0f4c75;
+    --azul-cielo:#bbe1fa;
 
 }
 *{
@@ -32,12 +34,12 @@ body{
     height: 100%;
 }
 #central {
-    max-width: 320px;
+    max-width: 500px;
     width: 100%;
 }
 .titulo {
     font-size: 250%;
-    color:#bbe1fa;
+    color:var(--azul-cielo);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -59,7 +61,7 @@ body{
 #login input {
     text-align: center;
     font-size: 110%;
-    color: #1b262c;
+    color: var(--negro);
     
     display: block;
     width: 100%;
@@ -77,7 +79,7 @@ body{
 #login button {
     font-family: 'Overpass', sans-serif;
     font-size: 110%;
-    color:#1b262c;
+    color: var(--negro);
     width: 100%;
     height: 40px;
     border: none;
@@ -86,13 +88,13 @@ body{
     -moz-border-radius: 3px 3px 3px 3px;
     -webkit-border-radius: 3px 3px 3px 3px;
     
-    background-color: #bbe1fa;
+    background-color: var(--azul-cielo);
     
     margin-top: 10px;
 }
 #login button:hover {
-    background-color: #0f4c75;
-    color:#bbe1fa;
+    background-color:  var(--background-botones);
+    color:var(--blanco);
 }
 .pie-form {
     font-size: 90%;
@@ -103,10 +105,10 @@ body{
 .pie-form a {
     display: block;
     text-decoration: none;
-    color: #bbe1fa;
+    color: var(--azul-cielo);
     margin-bottom: 3px;
 }
 
 .pie-form a:hover {
-    color: #0f4c75;
+    color: var(--blanco);
 }
