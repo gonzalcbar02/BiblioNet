@@ -14,8 +14,8 @@
                 <div class="titulo">
                     Bienvenido
                 </div>
-                <form id="loginform">
-                    <input type="text" name="usuario" placeholder="Usuario" required>    
+                <form id="loginform" method="post">
+                    <input type="email" name="usuario" placeholder="Usuario" required>    
                     <input type="password" placeholder="Contraseña" name="password" required>
                     <button type="submit" title="Ingresar" name="Ingresar">Login</button>
                 </form>
@@ -28,3 +28,11 @@
     </div>
 </body>
 </html>
+
+<?php
+
+    if($_SERVER["REQUEST_METHOD"] == "POST"){
+        header("Location:./principal.php");
+    }
+
+?>
