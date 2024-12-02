@@ -14,10 +14,10 @@
                 <div class="titulo">
                     Bienvenido
                 </div>
-                <form id="loginform">
+                <form id="loginform" method="post">
                     <input type="email" name="email" placeholder="Correo" required>    
                     <input type="password" placeholder="Contraseña" name="password" required>
-                    <input type="password" placeholder="Repite Contraseña" name="password" required>
+                    <input type="password2" placeholder="Repite Contraseña" name="password2" required>
                     <button type="submit" title="Registrate" name="Registrate">Registrate</button>
                 </form>
                 <div class="pie-form">
@@ -29,3 +29,16 @@
     </div>
 </body>
 </html>
+
+<?php
+    if($_SERVER["REQUEST_METHOD"] == "POST"){ 
+        
+        $password = $_POST["password"];
+        $password2 = $_POST["password2"];
+
+        if($password == $password2){
+            header("Location:./index.php");
+        }
+        
+    }
+?>

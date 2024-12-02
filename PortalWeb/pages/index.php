@@ -30,9 +30,14 @@
 </html>
 
 <?php
-
     if($_SERVER["REQUEST_METHOD"] == "POST"){
-        header("Location:./principal.php");
+        
+        $username = $_POST["usuario"];
+        $password = $_POST["password"];
+
+        if( $username == "gonzalo@gmail.com" && $password == 1234){
+            header("Location:./principal.php");
+        }
     }
 
 ?>
