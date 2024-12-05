@@ -27,15 +27,30 @@ nav{
     height: 80px;
 }
 .enlace{
-    position:fixed;
+    position:absolute;
     left: 0;
     margin-left: 25px;
+}
+.user{
+    position: absolute;
+    right: 10%;
+}
+.user img{
+    color: var(--blanco);
+    margin-right: 5px;
+    width: 25px;
+}
+#containerUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 nav ul{
     float: right;
     margin-right: 20px;
 }
 nav ul li{
+    color: var(--blanco);
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;

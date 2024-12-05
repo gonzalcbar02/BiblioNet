@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ◤ Principal | BiblioNet ◥</title>
+    <title> ◤ Sobre Nosotros | BiblioNet ◥</title>
     <link rel="icon" href="../img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../includes/css/style_pages.css">
 </head>
@@ -11,12 +11,12 @@
     <header>
         <nav id="navegador">
             <a href="./principal.php" class="enlace">
-                <img width="80" class="logo" src="../img/logo.png" alt="Logo BiblioNet">
+                <img width="80" src="../img/logo.png" alt="Logo BiblioNet">
             </a>
             <ul>
-                <li><a href="./principal.php" class="active">INICIO</a></li>
+                <li><a href="./principal.php" >INICIO</a></li>
                 <li><a href="./catalogo.php">CATALOGO</a></li>
-                <li><a href="./nosotros.php">SOBRE NOSOTROS</a></li>
+                <li><a href="./nosotros.php" class="active">SOBRE NOSOTROS</a></li>
                 <li><a href="./contactanos.php">CONTACTANOS</a></li>
                 <li><a href="./carrito.php">CARRITO</a></li>
                 <li class="user">

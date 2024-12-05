@@ -14,7 +14,7 @@
                 <div class="titulo">
                     Bienvenido
                 </div>
-                <form id="loginform" method="post">
+                <form method="post">
                     <input type="email" name="usuario" placeholder="Usuario" required>    
                     <input type="password" placeholder="Contraseña" name="password" required>
                     <button type="submit" title="Ingresar" name="Ingresar">Login</button>
@@ -32,11 +32,18 @@
 <?php
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         
+        session_start();
+
         $username = $_POST["usuario"];
         $password = $_POST["password"];
 
         if( $username == "gonzalo@gmail.com" && $password == 1234){
             header("Location:./principal.php");
+            $_SESSION["user"] = $username;
+        }
+        if( $username == "admin@yopmail.com"){
+            header("Location:./principal.php");
+            $_SESSION["user"] = $username;
         }
     }
 
