@@ -14,14 +14,14 @@
                 <div class="titulo">
                     Bienvenido
                 </div>
-                <form id="loginform" method="post">
+                <form id="loginform" action="./dateRegister.php" method="post">
                     <input type="email" name="email" placeholder="Correo" required>    
                     <input type="password" placeholder="Contraseña" name="password" required>
-                    <input type="password2" placeholder="Repite Contraseña" name="password2" required>
+                    <input type="password" placeholder="Repite Contraseña" name="password2" required>
                     <button type="submit" title="Registrate" name="Registrate">Registrate</button>
                 </form>
                 <div class="pie-form">
-                    <a href="./index.php"> ¿Quieres volver al inicio? Pulsame </a>
+                    <a href="./dateRegister.php"> ¿Quieres volver al inicio? Pulsame </a>
                 </div>
             </div>
             
