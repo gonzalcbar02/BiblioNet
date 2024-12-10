@@ -26,9 +26,13 @@
                     <div id="containerUser">
                         <img src="../img/icon_user.webp" alt="">
 
-                        <?php
-                        session_start();
-                        echo $_SESSION["user"];
+                        <?php 
+                            session_start();
+                            if($_SESSION["user"] == "admin@yopmail.com"){
+                                echo '<a href="./insertDataAdmin.php">'.$_SESSION["user"].'</a>';
+                            }else{
+                                echo $_SESSION["user"];
+                            }
                         ?>
                     </div>
 
@@ -43,7 +47,7 @@
             <div class="titulo">
                 ¿Que le sucede?
             </div>
-            <form method="post">
+            <form action="./dataFormContact.php" method="post">
                 <input type="email" name="correo" placeholder="Correo" required>
                 <input type="text" placeholder="Asunto" name="asunto" required>
                 <textarea name="mensaje" id="" cols="70" rows="10" placeholder="Mensaje"></textarea>
@@ -64,8 +68,11 @@
 
 const EMAIL_ADMIN = "alcaidebarberogonzalo@gmail.com";
 
+/* Funcionalidad que no ira hasta ser desplegada en servidor */
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
+    ini_set("SMTP","localhost");
+    ini_set("smtp_port","25");
 
     $asunto = $_POST["asunto"];
     $mensaje = $_POST["mensaje"];

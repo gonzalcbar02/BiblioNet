@@ -19,6 +19,7 @@ body{
 }
 nav{
     background-color: var(--azul-logo);
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,4 +67,73 @@ nav ul li a{
 li a.active, li a:hover{
     background-color: #ffffff63;
     transition: .5s;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.titulo {
+    font-size: 250%;
+    color:var(--blanco);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.content {
+    margin-top: 150px;
+    width: 70%;
+    padding: 30px 30px;
+    background-color: var(--fondo-login);
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+}
+.containerBooks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blanco);
+    width: 100%;
+}
+.libro{
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    margin: 10px;
+    width: 20%;
+}
+.libro .img{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.libro h1{
+    text-align: center;
+}
+.libro p{
+    margin: 10px;
+}
+.libro .img img{
+    margin-top: 10px;
+    width: 50%;
+}
+.button{
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+    color: var(--azul-logo);
+    background-color: var(--blanco);
+}
+.button:hover{
+    background-color: var(--azul-logo);
+    color: var(--blanco);
 }

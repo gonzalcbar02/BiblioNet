@@ -25,7 +25,11 @@
 
                         <?php 
                             session_start();
-                            echo $_SESSION["user"];
+                            if($_SESSION["user"] == "admin@yopmail.com"){
+                                echo '<a href="./insertDataAdmin.php">'.$_SESSION["user"].'</a>';
+                            }else{
+                                echo $_SESSION["user"];
+                            }
                         ?>
                     </div>
                     
@@ -34,6 +38,178 @@
         </nav>
     </header>
     
+    <div class="container">
+        <div class="content">
+            <div class="titulo">Categoria 1</div>
+            <div class="containerBooks">
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="titulo">Categoria 2</div>
+            <div class="containerBooks">
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="titulo">Categoria 3</div>
+            <div class="containerBooks">
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="titulo">Categoria 4</div>
+            <div class="containerBooks">
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+                <div class="libro">
+                    <div class="img">
+                        <img src="../img/portada.webp" alt="portada">
+                    </div>
+                    <h1>Libro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
 
     </footer>

@@ -1,0 +1,59 @@
+:root{
+    --azul-oscuro: #5b6d82;
+    --azul-logo: #225fa1;
+    --azul-claro: #5987b9;
+    --blanco: #fff;
+    --negro: #000;
+    --fondo-login: #3282b8;
+    --background-botones: #0f4c75;
+    --azul-cielo:#bbe1fa;
+}
+.contentAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    padding-top: 150px !important;
+}
+.contentAbout img{
+    height: 400px;
+    width: 600px;
+}
+.textAbout{
+    width: 30%;
+    margin-left: 50px;
+} 
+.textAbout h1{
+    text-transform: uppercase;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 600px;
+    height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 600px;
+    height: 400px;
+}
+
+.gmap_iframe {
+    width: 600px !important;
+    height: 400px !important;
+}
+#mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--azul-logo);
+    color: var(--blanco);
+    margin-bottom: 10%;
+}
+.mapouter{
+    padding: 0 50px 50px 50px;
+}
