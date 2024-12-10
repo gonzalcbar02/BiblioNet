@@ -103,7 +103,19 @@ li a.active, li a:hover{
     background-color: var(--blanco);
     width: 100%;
 }
+.btnReserva{
+    background-color: var(--azul-logo);
+    color: var(--blanco);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 10px;
+}
 .libro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
     margin: 10px;
     width: 20%;
@@ -112,6 +124,17 @@ li a.active, li a:hover{
     display: flex;
     justify-content: center;
     align-self: center;
+}
+.libro span {
+    margin-left: 80%;
+    margin-top: 5%;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    padding: 5px 10px; 
+    font-weight: bold;
+}
+.libro span a{
+    text-decoration: none;
+    color: var(--negro);
 }
 .libro h1{
     text-align: center;

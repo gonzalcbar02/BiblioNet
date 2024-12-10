@@ -48,6 +48,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -55,6 +56,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -62,6 +64,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -69,6 +72,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -76,6 +80,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
             </div>
         </div>
@@ -91,6 +96,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -98,6 +104,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -105,6 +112,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -112,6 +120,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -119,6 +128,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
             </div>
         </div>
@@ -134,6 +144,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -141,6 +152,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -148,6 +160,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -155,6 +168,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -162,6 +176,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
             </div>
         </div>
@@ -177,6 +192,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -184,6 +200,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -191,6 +208,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -198,6 +216,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
                 <div class="libro">
                     <div class="img">
@@ -205,6 +224,7 @@
                     </div>
                     <h1>Libro</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
+                    <a class="btnReserva" href="../pages/messageReserva.php">Reservar</a>
                 </div>
             </div>
         </div>

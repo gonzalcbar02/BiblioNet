@@ -43,6 +43,7 @@
             <div class="titulo">Carrito</div>
             <div class="containerBooks">
                 <div class="libro">
+                <span><a href="../pages/messageDeleteBook.php">X</a></span>
                     <div class="img">
                         <img src="../img/portada.webp" alt="portada">
                     </div>
@@ -50,6 +51,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
                 </div>
                 <div class="libro">
+                    <span><a href="../pages/messageDeleteBook.php">X</a></span>
                     <div class="img">
                         <img src="../img/portada.webp" alt="portada">
                     </div>
@@ -57,6 +59,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis ducimus dignissimos, excepturi quis ea aliquam cupiditate, dolorum at quisquam minima dolore qui vitae voluptatibus? Quo sequi laboriosam fugiat est.</p>
                 </div>
                 <div class="libro">
+                    <span><a href="../pages/messageDeleteBook.php">X</a></span>
                     <div class="img">
                         <img src="../img/portada.webp" alt="portada">
                     </div>

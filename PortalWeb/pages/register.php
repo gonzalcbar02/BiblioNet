@@ -21,7 +21,7 @@
                     <button type="submit" title="Registrate" name="Registrate">Registrate</button>
                 </form>
                 <div class="pie-form">
-                    <a href="./dateRegister.php"> ¿Quieres volver al inicio? Pulsame </a>
+                    <a href="./index.php"> ¿Quieres volver al inicio? Pulsame </a>
                 </div>
             </div>
             
