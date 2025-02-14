@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="./index.php">Volver login</a>
+    <a href="./index.php">Volver logisn</a>
     <?php 
 
     echo "<br><br>Correo: ".$_POST["email"] . "<br>";
